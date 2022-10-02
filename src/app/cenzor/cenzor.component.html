@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="heading">List of prohibited words:</div>
+    <div class="censor-section">
+        <div class="censor">
+            <p class="bad-words"><span>Bad words: </span>{{ bad }}</p>
+            <form name="form_words" class="form_words" >
+                <input type="text" name="input_words" [class]="classes" id="input_words" [placeholder]="placeHolder" [(ngModel)]="word">
+                <input type="button" value="Add" class="add-btn" (click)="addWord($event)">
+                <input type="button" value="Reset" class="reset-btn" (click)="resetBtn()">
+                <textarea name="textHere" id="textHere" [class]="classest" [placeholder]="placeHolderArea" [(ngModel)]="text"></textarea>
+                <button class="cenzor-btn" (click)="cenzor($event)">Cenzor</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-sec"></div>
+</div>

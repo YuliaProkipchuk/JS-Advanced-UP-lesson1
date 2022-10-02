@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heading {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid rgb(175, 166, 166);
+}
+
+.censor-section {
+    width: 100%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.censor{
+    width: 600px;
+    height: 245px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.bad-words{
+    font-weight: 600;
+    color: #cc2347;
+    font-size: 20px;
+}
+span{
+    color: #173031;
+}
+.footer-sec{
+    height: 13%;
+    background-color: #f7f7f7;
+    border-top: 1px solid rgb(175, 166, 166);
+}
+.form_words{
+    width: 100%;
+    height: 90%;
+    
+}
+#input_words{
+    width: 73%;
+    height: 30px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.add-btn, .reset-btn{
+    height: 30px;
+    width: 67px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 3px;
+}
+.add-btn{
+    background-color: #f8c812;
+    color: #173031;
+}
+.reset-btn{
+    background-color: #cc2347;
+    color: white;
+}
+#textHere{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 5px;
+    margin: 15px 0;
+}
+.cenzor-btn{
+    width: 100%;
+    height: 30px;
+    background-color: #32bb48;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.redBorder{
+    border-color: #cc2347;
+}
